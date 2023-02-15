@@ -22,7 +22,7 @@ Note: The components work with Tailwind classes
 <h2>Installation</h2>
 <pre>
 
-composer require ankitech/laravel-editorjs-html
+composer require sophy/laravel-editorjs-html
 php artisan vendor:publish --provider="Ankitech\LaravelEditorjsHtml\EditorJSHtmlProvider"
 </pre>
 
