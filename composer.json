@@ -24,10 +24,7 @@
         "laravel": {
             "providers": [
                 "Sophy\\LaravelEditorjsHtml\\EditorJSHtmlProvider"
-            ],
-            "aliases": {
-                "EditorJSHtml": "Sophy\\LaravelEditorjsHtml\\Facades\\EditorJSHtml"
-            }
+            ]
         }
     }
 }
