@@ -19,12 +19,5 @@
         "psr-4": {
             "Sophy\\LaravelEditorjsHtml\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Sophy\\LaravelEditorjsHtml\\EditorJSHtmlProvider"
-            ]
-        }
     }
 }
