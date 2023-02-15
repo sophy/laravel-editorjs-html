@@ -1,6 +1,6 @@
 <?php
 
-namespace Sophy\LaravelEditorjsHtml;
+namespace Psophy\LaravelEditorjsHtml;
 
 use EditorJS\EditorJS;
 use EditorJS\EditorJSException;

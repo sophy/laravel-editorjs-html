@@ -1,6 +1,6 @@
 <?php
 
-namespace Sophy\LaravelEditorjsHtml\Facades;
+namespace Psophy\LaravelEditorjsHtml\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

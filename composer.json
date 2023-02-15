@@ -17,7 +17,17 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Sophy\\LaravelEditorjsHtml\\": "src/"
+            "Psophy\\LaravelEditorjsHtml\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Psophy\\LaravelEditorjsHtml\\EditorJSHtmlProvider"
+            ],
+            "aliases": {
+                "EditorJSHtml": "Psophy\\LaravelEditorjsHtml\\Facades\\EditorJSHtml"
+            }
         }
     }
 }
