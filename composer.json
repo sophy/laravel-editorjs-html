@@ -13,7 +13,7 @@
             "email": "dev@ankitech.co"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Ankitech\\LaravelEditorjsHtml\\": "src/"
