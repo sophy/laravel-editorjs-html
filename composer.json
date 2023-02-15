@@ -1,5 +1,5 @@
 {
-    "name": "ankitech/laravel-editorjs-html",
+    "name": "sophy/laravel-editorjs-html",
     "type": "metapackage",
     "license": "MIT",
     "require": {
