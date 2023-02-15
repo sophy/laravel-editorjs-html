@@ -14,9 +14,20 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Ankitech\\LaravelEditorjsHtml\\": "src/"
+            "Sophy\\LaravelEditorjsHtml\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sophy\\LaravelEditorjsHtml\\EditorJSHtmlProvider"
+            ],
+            "aliases": {
+                "EditorJSHtml": "Sophy\\LaravelEditorjsHtml\\Facades\\EditorJSHtml"
+            }
         }
     }
 }
